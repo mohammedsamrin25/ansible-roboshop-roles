@@ -22,7 +22,7 @@
     remote_src: yes
 
 - name: install dependencies
-  tags:
+tags:
   - deployment
   community.general.npm:
     path: /app
