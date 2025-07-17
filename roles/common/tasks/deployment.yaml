@@ -21,8 +21,8 @@
     dest: /app
     remote_src: yes
 
-- name: install 
-tags:
+- name: install dependencies
+  tags:
   - deployment
   community.general.npm:
     path: /app
